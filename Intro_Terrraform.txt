@@ -1,0 +1,50 @@
+Intro Terrraform:
+----------------
+It is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
+
+The key features of Terraform are:
+
+» Infrastructure as Code
+Infrastructure is described using a high-level configuration syntax
+
+» Execution Plans
+Terraform has a "planning" step where it generates an execution plan.
+
+» Resource Graph
+Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources.
+
+» Change Automation
+Complex changesets can be applied to your infrastructure with minimal human interaction.
+
+
+
+Terraform vs. Other Software:
+
+Terraform provides a flexible abstraction of resources and providers. This model allows for representing everything from physical hardware, virtual machines, and containers, to email and DNS providers. Because of this flexibility, Terraform can be used to solve many different problems. This means there are a number of existing tools that overlap with the capabilities of Terraform. We compare Terraform to a number of these tools, but it should be noted that Terraform is not mutually exclusive with other systems. It can be used to manage a single application, or the entire datacenter.
+
+Steps :
+------
+
+Download and install Terrafrom [ie., terraform will comes as zip file of 14.6MB size].
+Unzip this file in a seperate directory[ie.,create a new directory named terraform and unzip to this location].
+
+
+use atom editor which provides auto inwords.
+myapp-provider.tf or ex1.tf
+
+terraform init
+terraform fmt
+terraform plan
+terraform apply
+
+
+to create a terraform workspace in our directory. 
+terraform new workspace <ws_name>
+
+to list all workspaces
+terraform workspace list/show 
+
+
+
+
+
